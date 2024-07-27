@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@410&family=Zain&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\Rock-Paper-Scissor-Game.css">
+</head>
+<body>
+  <p class="title">ROCK PAPER SCISSORS</p>
+  <button onclick="
+    asliGame('Rock');"
+    class="move-button">
+  <img src="images/Rock.png" class="move-img" alt=""></button>
+
+  <button onclick=
+    "asliGame('Paper');"
+    class="move-button">
+  <img src="images/Paper.png" class="move-img" alt=""></button>
+
+  <button onclick=
+    "asliGame('Scissors');"
+    class="move-button">
+  <img src="images/Scissors.png" class="move-img" alt=""></button>
+
+  <p class="js-moves"></p>
+  <p class="js-result"></p>
+  <p class="js-score"></p>
+
+  <button onclick=
+    "score.wins=0;
+    score.losses=0;
+    score.tie=0;
+    localStorage.removeItem('score');
+    scorePara();"
+    class="reset-button">
+    Reset Score
+  </button>
+
+  <script src="javascript/Rock-Paper-Scissor-Game.js"></script>
+</body>
+</html>

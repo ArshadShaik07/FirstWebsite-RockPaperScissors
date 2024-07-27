@@ -1,0 +1,49 @@
+body{
+  background-color: rgba(72, 119, 182, 0.4);
+  color: rgb(0, 0, 0);
+  font-family: poppins;
+  padding-bottom: 400px;
+}
+
+.title{
+  font-family: zain;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.move-button{
+  background-color: lightcoral;
+  width: 120px;
+  height: 120px;
+  border-radius:100%;
+  border: 3px solid rgba(151, 63, 63, 0.4);
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.move-img{
+  width: 50px;
+  border-radius: 100%;
+}
+
+.reset-button{
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-family: poppins ,Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 8px 15px;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition:background-color 0.25s ,transform 0.03s ;
+}
+
+.reset-button:hover{
+  background-color: transparent;
+}
+
+.reset-button:active{
+  transform: scale(1.05);
+}
